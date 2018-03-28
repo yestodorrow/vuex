@@ -11,6 +11,9 @@
 
 <script>
 import store from './../store'
+
+import {toast} from "mint-ui"
+
 export default {
   name: 'HelloWorld',
   data () {
