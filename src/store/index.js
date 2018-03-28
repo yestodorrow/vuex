@@ -15,9 +15,9 @@ const store =new Vuex.Store(
         actions:{
             ADDBOOKS(context,data){
                 context.commit("addbooks",data.data)//`${data}`如果是传递过来多个参数
-                console.log(data.cb);
+                console.log(this.state);
                 if(data.cb){
-                    data.cb("成功添加第"+(this.books.length-1)+"个问候语")
+                    data.cb("成功添加第"+(this.state.books.length-1)+"个问候语")
                 }
             }
         },
