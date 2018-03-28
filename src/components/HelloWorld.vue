@@ -12,7 +12,8 @@
 <script>
 import store from './../store'
 
-import {toast} from "mint-ui"
+import {Toast} from "mint-ui"
+import 'mint-ui/lib/toast/style.css'
 
 export default {
   name: 'HelloWorld',
@@ -29,7 +30,13 @@ export default {
   },
   methods:{
     addbook(){
-      this.$store.dispatch("ADDBOOKS",this.data)
+      this.$store.dispatch("ADDBOOKS",{data:this.data,cb:function(msg){
+        Toast({
+            message: msg,
+            position: 'middle',
+            duration:2000
+          });
+      }})
     }
   }
 }
