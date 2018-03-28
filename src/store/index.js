@@ -14,7 +14,7 @@ const store =new Vuex.Store(
         },
         actions:{
             ADDBOOKS(context,data){
-                context.commit("addbooks",`${data}`)
+                context.commit("addbooks",data)//`${data}`如果是传递过来多个参数
             }
         },
         mutations:{

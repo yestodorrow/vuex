@@ -3,6 +3,8 @@
 简单的vuex使用方法
 
 
+在static下面对性能进行了截图，推荐大家也用这个工具来进行调优
+
 > A Vue.js project
 
 ## Build Setup
