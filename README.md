@@ -46,7 +46,7 @@ mint-ui官网：https://mint-ui.github.io/docs/
     
     拿出我的se连接一下，效果如下：
 
-  ![图片链接](https://github.com/yestodorrow/vuex/blob/master/static/detect.png)
+  ![图片链接](https://github.com/yestodorrow/vuex/blob/master/static/detect.jpg)
 
 ## Build Setup
 
