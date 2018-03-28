@@ -1,5 +1,8 @@
 # routes
 
+简单的vuex使用方法
+
+
 > A Vue.js project
 
 ## Build Setup
