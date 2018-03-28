@@ -15,6 +15,8 @@ mint-ui官网：https://mint-ui.github.io/docs/
 
 这里需要适当修改一下vuex store中的设置，增加回调这一部分；
 
+不过如果是全局引用的话  需要更改设置 在最初使用vue.use() 然后$toast就能使用了
+
 对性能进行了截图
 
 推荐大家也用这个工具来进行调优
