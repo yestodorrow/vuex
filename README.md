@@ -8,7 +8,7 @@
 推荐大家也用这个工具来进行调优
 
 在static下面
-![图片链接](https://github.com/yestodorrow/vuex/blob/master/static/time.png "optional title")
+![图片链接](https://github.com/yestodorrow/vuex/blob/master/static/time.png "性能截图")
 
 > A Vue.js project
 
