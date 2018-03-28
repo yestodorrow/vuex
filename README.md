@@ -2,6 +2,11 @@
 
 简单的vuex使用方法
 
+实例之后，引入mint-ui，
+mint-ui官网：https://mint-ui.github.io/docs/
+
+
+因为mint-ui支持按需加载，虽然组减少，但我相信它会越做越好
 
 对性能进行了截图
 
