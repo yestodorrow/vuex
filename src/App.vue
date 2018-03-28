@@ -1,13 +1,23 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <p>{{client}}</p>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Client from './plugins'
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return{
+      client:""
+    }
+  },
+  created:function(){
+    this.client=Client
+  }
 }
 </script>
 
