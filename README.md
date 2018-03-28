@@ -8,6 +8,13 @@ mint-ui官网：https://mint-ui.github.io/docs/
 
 因为mint-ui支持按需加载，虽然组减少，但我相信它会越做越好
 
+引入一个弹窗控件，
+
+当子组件成功更改vuex store下books的时候，成功回调弹窗
+
+
+这里需要适当修改一下vuex store中的设置，增加回调这一部分；
+
 对性能进行了截图
 
 推荐大家也用这个工具来进行调优
